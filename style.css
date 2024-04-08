@@ -1,0 +1,138 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+}
+
+.content-div {
+  display: flex;
+  height: 100vh;
+}
+
+.left-aside {
+  background-color: rgba(0, 0, 0, 0.916);
+  width: 20%;
+  max-width: 300px;
+  height: 100%;
+  color: white;
+  overflow: auto;
+}
+
+main {
+  width: 65%;
+  height: 100%;
+  color: black;
+}
+
+#my-photo {
+  border-radius: 50%;
+  width: 140px;
+  margin: 20px 65px 20px 65px;
+}
+
+.contact,
+.skills,
+.education {
+  width: 80%;
+  margin: auto;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact hr,
+.skills hr,
+.education hr {
+  border: none;
+  border-top: 1px solid white;
+  margin: 10px 0;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-info img {
+  width: 22px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contact-info p {
+  margin: 0;
+}
+.skills ul {
+  padding: 0;
+  margin-top: 10px;
+}
+.skills ul li {
+  margin-left: 20px;
+}
+.education p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.my-name {
+  margin-left: 30px;
+}
+main p {
+  color: gray;
+  font-size: 20px;
+}
+main h3 {
+  color: grey;
+}
+.profile {
+  width: 100%;
+  margin-top: 45px;
+}
+.profile h2,
+.experience h2 {
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.804);
+}
+.profile p,
+.experience p {
+  text-align: center;
+}
+.experience {
+  width: 100%;
+  margin-top: 59px;
+}
+.right-aside {
+  width: 15%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.916);
+  color: white;
+}
+.right-aside h2 {
+  text-align: center;
+  margin-top: 25px;
+}
+.left-aside a {
+  text-decoration: none;
+  color: white;
+}
+.experience h2 {
+  padding-bottom: 15px;
+}
+.profile h2 {
+  padding-bottom: 10px;
+}
+.my-projects a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.my-projects {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.my-projects a:hover {
+  color: whitesmoke;
+}
